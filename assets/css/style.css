@@ -42,6 +42,7 @@ nav a:hover {
 .fa-bars {
   color: white;
   padding: 0% 25px;
+  display: none !important;
 }
 
 .coffeeImageContainer {
@@ -83,13 +84,13 @@ nav a:hover {
   .headerNavLinks {
     display: none;
   }
+  .fa-bars {
+    display: block !important;
+  }
 }
 
-@media all and (min-width: 769px) {
+@media all and (min-width: 768px) {
   .phoneLink {
-    display: none;
-  }
-  .fa-bars {
     display: none;
   }
 }
