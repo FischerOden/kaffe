@@ -1,0 +1,170 @@
+html {
+  background-color: black;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  position: sticky;
+  top: 20px;
+  margin: 0 15px;
+  background-color: #301d18e3;
+  padding: 25px 0px;
+  border-radius: 25px;
+  z-index: 99 !important;
+  transition: all 0.4s;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: x-large;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-decoration-thickness: 0.5px;
+  transition: all 0.15s ease-in-out;
+}
+
+nav a:hover {
+  text-decoration-style: dotted;
+  text-decoration-line: underline;
+  transform: scale(1.22);
+  color: beige;
+}
+
+.coffeeImageContainer {
+  position: relative;
+  text-align: center;
+  color: beige;
+}
+
+.coffeeImageContainer img {
+  filter: brightness(35%);
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.centerTextBeans {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 128px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+@media all and (max-width: 768px) {
+  .centerTextBeans {
+    font-size: 58px;
+  }
+  nav {
+    font-size: 22px;
+  }
+}
+
+.ingredientsTitle {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 5vw;
+  color: white;
+}
+
+.ingredientsImage {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.ingredientsImage img {
+  filter: blur(4px);
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.ingredientsText {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4.5vw;
+  padding: 7%;
+  border-radius: 75px;
+  font-family: "Josefin Sans", sans-serif;
+  width: 80%;
+}
+
+.footerGroup1 {
+  display: flex;
+  flex-direction: row;
+  background-color: #301d18;
+  justify-content: space-evenly;
+  font-family: "Josefin Sans", sans-serif;
+  align-items: center;
+  align-content: space-between;
+  padding: 60px 0px;
+  flex-wrap: wrap;
+  flex-grow: 5;
+}
+
+.footerGroup1 a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+  background-color: none;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.footerGroup1 pre {
+  color: white;
+  font-size: large;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.footerGroup1 a:hover {
+  text-decoration: dotted;
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.5px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.footerLogo {
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.show {
+  opacity: 1;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.break {
+  width: 100%;
+}
+
+.backToTop {
+  position: fixed;
+  left: 16px;
+  bottom: 16px;
+  transition: all 0.4s;
+}

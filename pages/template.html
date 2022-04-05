@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/134ae65c25.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="icon"
+      type="image/jpg"
+      href="./assets/images/Michelles-logo.png"
+    />
+    <title>Michelles Kaffe</title>
+  </head>
+  <body>
+    <br id="top" />
+    <header id="navHeader" class="headerNav show">
+      <nav>
+        <a href="./index.html">Hem</a><a href="">Hitta hit</a
+        ><a href="">Kontakt</a><a href="">Om oss</a>
+      </nav>
+    </header>
+    <footer>
+      <section class="footerGroup1">
+        <a href="tel:+46791340269" class="footerLinks">Telefon</a
+        ><img
+          src="./assets/images/Michelles-logo.png"
+          alt="Logga"
+          width="200px"
+          class="footerLogo"
+        />
+        <pre href="" class="footerLinks">
+Liljekonvaljvägen 34
+      812 42
+      Trönsta
+    </pre
+        >
+        <div class="break"></div>
+        <a href="#top" id="toTopBack" class="backToTop hide"
+          >Tillbaka till toppen <i class="fa-solid fa-arrow-up"></i
+        ></a>
+      </section>
+    </footer>
+    <script>
+      myID = document.getElementById("navHeader");
+
+      var myScrollFunc = function () {
+        var y = window.scrollY;
+        if (y <= 500) {
+          myID.className = "headerNav show";
+        } else {
+          myID.className = "headerNav hide";
+        }
+      };
+
+      window.addEventListener("scroll", myScrollFunc);
+    </script>
+    <script>
+      currentID = document.getElementById("toTopBack");
+
+      var currentScrollFunc = function () {
+        var y = window.scrollY;
+        if (y >= 500) {
+          currentID.className = "backToTop show";
+        } else {
+          currentID.className = "backToTop hide";
+        }
+      };
+
+      window.addEventListener("scroll", currentScrollFunc);
+    </script>
+  </body>
+</html>
