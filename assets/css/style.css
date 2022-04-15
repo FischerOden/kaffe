@@ -252,3 +252,9 @@ nav a:hover {
     right: 35px;
   }
 }
+
+.viewLargerMap {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  text-decoration-style: dotted;
+}
