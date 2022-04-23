@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/134ae65c25.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="icon"
+      type="image/jpg"
+      href="./assets/images/Michelles-logo.png"
+    />
+    <title>Michelles Kaffe - Fika & lunch</title>
+  </head>
+  <body onload="myFunction()">
+    <div id="loader"></div>
+    <section id="everything">
+      <br id="top" />
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+
+        <div class="overlay-content">
+          <a href="./index.html">Hem</a>
+          <a href="./pages/hittahit.html">Hitta hit</a>
+          <a href="./pages/kontakt.html">Kontakt</a>
+          <a href="./pages/omoss">Om oss</a>
+        </div>
+      </div>
+      <header id="navHeader" class="headerNav show">
+        <nav>
+          <i class="fa-solid fa-bars" onclick="openNav()"></i
+          ><a href="./index.html" class="headerNavLinks">Hem</a
+          ><a href="./pages/hittahit.html" class="headerNavLinks">Hitta hit</a
+          ><a href="./pages/kontakt.html" class="headerNavLinks">Kontakt</a
+          ><a href="./pages/omoss.html" class="headerNavLinks">Om oss</a>
+        </nav>
+      </header>
+      <section class="content404">
+        <div class="text404">
+          <h1>Den här sidan finns inte...</h1>
+          <h3>
+            Gå gärna till <a href="./index.html">startsidan</a> och försök igen
+            :)
+          </h3>
+        </div>
+        <div class="barista404">
+          <img
+            src="/assets/images/tyler-nix-yGb2igKldYg-unsplash.jpg"
+            alt="Barista"
+          />
+        </div>
+      </section>
+      <footer>
+        <section class="footerGroup1">
+          <a href="tel:+46791340269" class="footerLinks phoneLink">Telefon</a
+          ><span class="footerLinks phoneNumber">079-134 02 69</span
+          ><a href="./index.html"
+            ><img
+              src="./assets/images/Michelles-logo.png"
+              alt="Logga"
+              width="200px"
+              class="footerLogo"
+          /></a>
+          <pre href="" class="footerLinks">
+Liljekonvaljvägen 34
+      812 42
+      Trönsta
+    </pre
+          >
+          <div class="break"></div>
+          <a href="#top" id="toTopBack" class="backToTop hide"
+            >Tillbaka till toppen <i class="fa-solid fa-arrow-up"></i
+          ></a>
+        </section>
+      </footer>
+    </section>
+    <script src="/assets/js/loader.js"></script>
+    <script src="./assets/js/scrollFunc1.js"></script>
+    <script src="./assets/js/scrollFunc2.js"></script>
+    <script src="./assets/js/navFunc.js"></script>
+  </body>
+</html>

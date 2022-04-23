@@ -427,3 +427,73 @@ nav a:hover {
 #body {
   display: none;
 }
+
+.locationHeading {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.openingTimesLink {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.openingTimesLink a {
+  color: beige;
+  text-decoration: none;
+  padding: 10px;
+  margin: -10px;
+  border-radius: 12px;
+}
+
+.openingTimesLink a:hover {
+  text-decoration: dotted;
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.5px;
+  background-color: rgba(48, 29, 24, 0.75);
+}
+
+.barista404 img {
+  width: 70%;
+  border-radius: 15px;
+}
+
+.barista404 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.text404 {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 2rem 15%;
+}
+
+.text404 a {
+  color: beige;
+  text-decoration: none;
+  padding: 10px;
+  margin: -10px;
+  border-radius: 12px;
+}
+
+.text404 a:hover {
+  text-decoration: dotted;
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.5px;
+  background-color: rgba(48, 29, 24, 0.75);
+}
+
+.text404 h1 {
+  font-size: 2.5rem;
+}
+
+.text404 h3 {
+  font-size: 1.5rem;
+}
